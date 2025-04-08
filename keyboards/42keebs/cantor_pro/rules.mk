@@ -1,2 +1,2 @@
-DEFAULT_FOLDER=42keebs/cantor_pro/frood_v2
+DEFAULT_FOLDER=42keebs/cantor_pro/frood_v3
 SERIAL_DRIVER=vendor

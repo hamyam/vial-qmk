@@ -1,0 +1,28 @@
+{
+    "keyboard_name": "Cantor Pro Frood v3",
+    "usb": {
+        "device_version": "3.0.0"
+    },
+    "matrix_pins": {
+        "direct": [
+            [ "GP28" , "GP3"  , "GP29" , "GP2"  , "GP1"  , "GP0" ]  ,
+            [ "GP4"  , "GP27" , "GP5"  , "GP26" , "GP6"  , "GP22" ] ,
+            [ "GP9"  , "GP21" , "GP23" , "GP8"  , "GP20" , "GP7" ]  ,
+            [ null   , null   , null   , "GP15" , "GP14" , "GP12" ]
+        ]
+    },
+    "split": {
+        "enabled": true,
+        "soft_serial_pin": "GP13",
+        "matrix_pins": {
+            "right": {
+                "direct": [
+                    [ "GP0"  , "GP1"  , "GP2"  , "GP29" , "GP3"  , "GP28" ] ,
+                    [ "GP22" , "GP6"  , "GP26" , "GP5"  , "GP27" , "GP4" ]  ,
+                    [ "GP7"  , "GP20" , "GP8"  , "GP23" , "GP12" , "GP9" ]  ,
+                    [ "GP21" , "GP15" , "GP14" , null   , null   , null ]
+                ]
+            }
+        }
+    }
+}
